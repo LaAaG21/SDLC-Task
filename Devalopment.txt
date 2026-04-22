@@ -1,0 +1,26 @@
+Phase 3: Development
+
+What Happens in This Phase;
+
+The Development phase is where the actual source code is written based on design specifications. Developers translate requirements and design documents into working software. Teams typically work in sprints (Agile) or in parallel streams (Waterfall), building features iteratively, conducting code reviews, and integrating components.
+
+
+Front-End vs. Back-End Responsibilities;
+
+Front-End: Builds the user interface and client-side logic using HTML, CSS, JavaScript, and frameworks like React, Angular, or Vue.js. Responsible for visual presentation, responsiveness, and browser compatibility.
+
+Back-End; Manages business logic, database interactions, authentication, and API services. Uses languages and frameworks like Java/Spring Boot, Python/Django, Node.js, or .NET. Responsible for data processing and server-side security.
+
+
+Commonly Used Tools & Technologies;
+
+GitHub / GitLab — Version control platforms that enable collaboration, code review, branching strategies (e.g., GitFlow), and CI/CD pipeline integration. (Source: GitHub Docs, 2024)
+
+VS Code — A widely adopted code editor with extensions for linting, debugging, Docker integration, and language support. (Source: Microsoft, 2024)
+
+Spring Boot / Node.js / Django — Backend frameworks that accelerate development by providing pre-built patterns for REST APIs, authentication, and database connectivity. (Source: Spring.io; Node.js Foundation, 2024)
+
+
+Why Version Control Is Essential;
+
+Version control provides a complete history of every change made to the codebase, enabling teams to collaborate without overwriting each other's work, roll back to previous stable states when bugs are introduced, track who made changes and why (auditability), and maintain multiple parallel branches for features, hotfixes, and releases. Without version control, a single developer error can corrupt the entire codebase with no recovery path.
