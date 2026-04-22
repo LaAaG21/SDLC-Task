@@ -1,0 +1,28 @@
+Phase 6: Maintenance
+
+
+Why Maintenance Never Ends;
+
+Software does not degrade in isolation — the environment around it constantly changes. Operating systems release patches, third-party libraries introduce breaking changes, security vulnerabilities are discovered, user behavior evolves, and business requirements shift. A banking application deployed in 2018 must be continuously maintained to comply with 2024 security regulations, support new mobile OS versions, and meet user expectations shaped by modern UX standards. Maintenance ensures software remains secure, reliable, and valuable. (Source: IBM Software Maintenance Guide)
+
+
+Maintenance Activities;
+
+Bug Fixing (Corrective Maintenance) — Identifying and resolving defects found in production that were not caught during testing. Includes triaging severity, reproducing issues, patching code, and regression testing the fix.
+
+Updating Libraries & Dependencies (Preventive Maintenance) — Regularly upgrading third-party packages to fix security vulnerabilities (CVEs), maintain compatibility with modern runtime environments, and avoid dependency rot.
+
+Performance Tuning & Optimization (Perfective Maintenance) — Profiling systems to identify bottlenecks, optimizing database queries, adding caching layers, and improving throughput as user volumes grow.
+
+
+Maintenance Tools;
+
+
+JIRA (Atlassian) — Used to track bug reports, enhancement requests, and maintenance tasks. Teams configure SLA-based workflows to prioritize critical issues and assign them to the appropriate engineers. (Source: Atlassian, 2024)
+
+ServiceNow — An ITSM (IT Service Management) platform used in enterprise environments to manage incidents, change requests, and service-level agreements. Provides a comprehensive audit trail of all maintenance actions. (Source: ServiceNow, 2024)
+
+
+How User Feedback Influences Maintenance;
+
+User feedback — through crash reports, app store reviews, support tickets, and usage analytics — is the primary signal that guides maintenance priorities. A mobile app with 500 1-star reviews mentioning a specific crash will prioritize fixing that crash above other backlog items. Tools like Sentry (crash reporting), Mixpanel (usage analytics), and Zendesk (support tickets) funnel real-world user signals into the development backlog, creating a feedback loop that keeps software aligned with actual user needs. (Source: Lean Startup; IDEO Design Thinking)
