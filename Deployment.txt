@@ -1,0 +1,26 @@
+Phase 5: Deployment
+
+What Deployment Means in SDLC;
+
+Deployment is the process of releasing tested, approved software into a production environment where real users can access it. It involves configuring servers, migrating databases, routing traffic, and monitoring system health post-release. Deployment is not a one-time event — modern software is deployed continuously in small, incremental releases.
+
+
+Deployment Models;
+
+Manual Deployment — An engineer manually copies files, runs scripts, and configures servers. Error-prone, slow, and unsuitable for teams deploying frequently. Still used in regulated industries requiring human sign-off.
+
+Continuous Deployment (CD) — Every code change that passes automated tests is automatically released to production without manual intervention. Enables rapid iteration and reduces deployment risk by making changes small and frequent. Used by companies like Netflix and Amazon. (Source: Atlassian CI/CD Guide, 2024)
+
+
+Deployment Tools & Platforms;
+
+Jenkins — An open-source CI/CD automation server that builds, tests, and deploys code automatically when changes are pushed to the repository. Widely used in enterprise environments. (Source: Jenkins Documentation, 2024)
+
+AWS (Amazon Web Services) / Azure / GCP — Cloud platforms providing infrastructure (EC2, Lambda, EKS) and managed deployment services (CodeDeploy, Elastic Beanstalk) that scale automatically with demand. (Source: AWS Documentation, 2024)
+
+Docker / Kubernetes — Docker packages applications into portable containers; Kubernetes orchestrates those containers at scale, managing deployment, scaling, and self-healing across clusters. (Source: Docker Docs; Kubernetes.io, 2024)
+
+
+How DevOps Supports Deployment;
+
+DevOps breaks down the wall between development and operations teams, embedding ops responsibilities into development workflows. Practices like Infrastructure as Code (IaC), automated pipelines, blue-green deployments, and feature flags allow teams to deploy with zero downtime, roll back instantly if metrics degrade, and monitor production systems in real time. (Source: Gene Kim, The DevOps Handbook, 2016)
