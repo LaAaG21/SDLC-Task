@@ -1,0 +1,26 @@
+Phase 1: Analysis
+
+Main Goal;
+
+The primary goal of the Analysis phase is to gather, document, and validate all requirements from stakeholders before any design or development begins. This phase ensures that the development team fully understands what the software must do, who will use it, and what constraints exist. Poor analysis leads to rework, cost overruns, and project failure.
+
+
+Key Roles Involved;
+
+Product Owner: Identifies and prioritizes product features from a business value perspective, translating stakeholder needs into a product backlog.
+
+Business Analyst: Bridges business stakeholders and technical teams; conducts interviews, creates use cases, and documents functional and non-functional requirements.
+
+Project Manager: Plans timelines, manages scope, allocates resources, and ensures stakeholder alignment throughout the requirements-gathering process.
+
+
+Tools & Techniques;
+
+JIRA — Used for capturing user stories, tracking requirements, and managing backlogs. Teams use JIRA epics and stories to translate stakeholder needs into actionable development tasks. (Source: Atlassian, 2024)
+
+Requirements Workshops / JAD Sessions — Joint Application Development (JAD) sessions bring all stakeholders together to co-define requirements in structured facilitated meetings, reducing miscommunication. (Source: IBM, 2023)
+
+
+Impact of Missing Requirements;
+
+Missing or poorly defined requirements trigger a cascade of problems across the entire SDLC. Designers create systems based on incorrect assumptions; developers build features that do not match real user needs; testers lack acceptance criteria; and deployment delivers software that fails to solve actual business problems. The Standish Group's CHAOS Report consistently identifies incomplete requirements as a top cause of project failure, contributing to over 37% of failed projects (Standish Group, 2020).
