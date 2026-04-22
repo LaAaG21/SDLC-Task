@@ -1,0 +1,28 @@
+Phase 4: Testing
+
+Purpose of Testing;
+
+The Testing phase validates that the software behaves as intended, meets requirements, and is free of critical defects before being released to users. Testing also verifies performance, security, and usability. Releasing untested software exposes organizations to data breaches, financial loss, legal liability, and reputational damage.
+
+
+Types of Testing;
+
+Unit Testing — Tests individual functions or components in isolation to ensure they produce expected outputs for given inputs. Typically automated and written by developers. (e.g., JUnit for Java, pytest for Python)
+
+Integration Testing — Tests how multiple components or services work together. Validates that data flows correctly across API boundaries, databases, and service layers.
+
+System Testing (End-to-End) — Tests the complete, integrated application against the full set of requirements to ensure all components function together as a complete system.
+
+
+Testing Tools;
+
+Selenium — An open-source browser automation framework used for automated UI testing of web applications across multiple browsers. (Source: Selenium Documentation, 2024)
+
+JMeter — Apache JMeter is a performance and load testing tool that simulates thousands of concurrent users to identify bottlenecks and performance degradation under load. (Source: Apache JMeter, 2024)
+
+Postman — A widely used tool for API testing that allows teams to write automated test suites for REST and GraphQL endpoints, validating request/response contracts. (Source: Postman Docs, 2024)
+
+
+How Automated Testing Improves Efficiency;
+
+Automated tests execute in seconds what would take human testers hours. A regression suite of 2,000 automated tests can run in under 10 minutes in a CI/CD pipeline, immediately flagging any new code that breaks existing functionality. This enables teams to deploy multiple times per day with high confidence, catch bugs when they are cheapest to fix (during development), and free QA engineers to focus on exploratory and edge-case testing rather than repetitive manual checks. (Source: SmartBear State of Testing Report, 2023)
