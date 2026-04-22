@@ -1,0 +1,27 @@
+Phase 2: Design
+
+Main Deliverables;
+
+System Architecture Document — Describes how the system components interact, including choice of architecture pattern (e.g., microservices, MVC, event-driven).
+
+Database Schema / Entity-Relationship Diagrams — Defines data models, relationships, and storage strategies.
+
+UI/UX Wireframes and Prototypes — Visual representations of screen layouts and user interactions.
+
+API Specifications — Documents endpoints, request/response formats, and authentication mechanisms.
+
+Technical Design Specification (TDS) — A comprehensive document guiding developers on implementation standards.
+
+
+Tools & Techniques;
+
+Figma — A browser-based UI/UX design and prototyping tool. Teams use Figma to create wireframes, clickable prototypes, and design systems, enabling rapid iteration and stakeholder review before development. (Source: Figma Documentation, 2024)
+
+Lucidchart / Draw.io — Diagramming tools used to create UML diagrams (class diagrams, sequence diagrams, ER diagrams) that capture system architecture and data flows. (Source: Lucidchart, 2024)
+
+
+System Design vs. UI/UX Design;
+
+System Design: Focuses on the internal architecture: how components communicate, how data is stored, how services scale. It answers 'How does the system work internally?' Includes choices of databases, APIs, servers, and patterns like microservices.
+
+UI/UX Design: Focuses on the user-facing experience: visual layout, interaction flows, accessibility, and usability. It answers 'How will the user interact with the system?' Includes wireframes, mockups, and prototyping.
